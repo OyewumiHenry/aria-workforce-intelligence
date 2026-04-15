@@ -1,0 +1,39 @@
+[logger]
+
+# Production logging — warnings only
+level = "warning"
+
+[client]
+
+showSidebarNavigation = true
+showErrorDetails = false
+toolbarMode = "viewer"
+
+[server]
+
+# Production server settings — critical for Streamlit Cloud
+headless = true
+runOnSave = false
+address = "0.0.0.0"
+port = 8501
+maxUploadSize = 200
+maxMessageSize = 200
+enableXsrfProtection = true
+fileWatcherType = "none"
+folderWatchBlacklist = ['01_Data', '05_Portfolio', '__pycache__', '.git']
+
+[browser]
+
+gatherUsageStats = false
+serverAddress = "0.0.0.0"
+serverPort = 8501
+
+[theme]
+
+# ARIA custom theme — professional executive dashboard
+base = "light"
+primaryColor = "#13315c"
+backgroundColor = "#f4f7fb"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#0f172a"
+font = "sans serif"

@@ -1,4 +1,4 @@
-# ARIA: Attrition Risk Insight Analyzer
+# ARIA: Workforce Risk Insight Analyzer
 
 ### Executive Workforce Risk Review From Public Employee Sentiment
 
@@ -15,6 +15,19 @@ ARIA turns 150 public employee reviews from Glassdoor and YouTube into a structu
 - [Business Case](05_Portfolio/BUSINESS_CASE.md)
 - [Demo Walkthrough](05_Portfolio/DEMO_WALKTHROUGH.md)
 - [Main App](deployment/aria_app.py)
+
+---
+
+## At A Glance
+
+- **Input:** 150 governed public employee reviews from Glassdoor and YouTube
+- **Output:** five executive workforce-risk themes, ranked and tied to concrete actions
+- **Decision value:** an evidence-first readout of where leadership should investigate, validate, and act next
+
+```text
+Public reviews -> governed dataset -> executive theme translation
+               -> workforce-risk ranking -> impact review -> action agenda
+```
 
 ---
 
@@ -141,7 +154,7 @@ If the governed files do not match the manifest, the deployed app stops instead 
 
 ## Research Notebooks
 
-The notebooks under `02_Notebooks/` document the preparation, validation, and comparison work behind the project. The deployed dashboard does **not** depend on synthetic attrition models, live ROI sliders, or deployment-time ML classifiers.
+The notebooks under `02_Notebooks/` document the preparation, validation, and comparison work behind the project. The deployed dashboard does **not** depend on synthetic turnover proxies, live ROI sliders, or deployment-time ML classifiers.
 
 ---
 

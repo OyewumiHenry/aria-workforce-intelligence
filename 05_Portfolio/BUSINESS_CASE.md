@@ -47,7 +47,7 @@ ARIA does **not** directly support:
 
 So the business case is strongest as a prioritization case, not a forecast case.
 
-That means the best current conclusion is not "this caused attrition."
+That means the best current conclusion is not "this proved turnover."
 It is "this is the strongest external warning signal and the best place to investigate next."
 
 ---
@@ -91,7 +91,7 @@ What is already strong:
 
 What still needs validation:
 
-- whether the public signal aligns with measured attrition
+- whether the public signal aligns with measured turnover or exits
 - whether burnout signal aligns with absenteeism or safety loss
 - whether pay friction is weakening overtime fill or shift coverage
 - whether manager inconsistency is visible in promotion or discipline data
@@ -104,7 +104,7 @@ So the current business conclusion should be presented as "high-confidence prior
 
 To turn ARIA from external signal into a stronger business case, leadership should request:
 
-- voluntary attrition by site, shift, tenure band, and manager
+- voluntary exit rate by site, shift, tenure band, and manager
 - absenteeism and call-off rates by workload-heavy department
 - overtime acceptance and fill rates by site and pay band
 - safety incidents by department and peak period

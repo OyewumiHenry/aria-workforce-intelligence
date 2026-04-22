@@ -1,5 +1,5 @@
 """
-ARIA: Attrition Risk Insight Analyzer
+ARIA: Workforce Risk Insight Analyzer
 Rebuild: 2026-04-13 21:40 UTC
 Version: v3-governance-strict
 Manifest version: 2026-04-13T20:40:06+00:00
@@ -912,7 +912,7 @@ executive_judgment = [
     f"{top_business_impact['Theme']} should be treated as the strongest current executive priority, not because ARIA proves financial loss, but because its operating exposure and observed evidence align at {top_business_impact['Business Impact Rating']:.1f}/10 with evidence confidence {top_business_impact['Evidence Confidence']:.1f}/10 ({top_business_impact['Confidence Band']}).",
     f"{volume_leader['Theme']} should be treated as the first internal validation target because it carries the largest negative volume and is the most plausible place to test whether public friction is already showing up in shift fill, overtime acceptance, or retention loss.",
     f"{public_exposure_leader['Theme']} requires disproportionate policy attention when public-exposure pressure outruns review volume because small, severe complaint clusters can create outsized reputational or employee-relations escalation before the volume looks large in aggregate.",
-    "Leadership can safely conclude that pay design, workload design, and frontline management controls are the three most defensible places to investigate next. Leadership should not claim causal attrition or ROI effects until internal KPIs are added.",
+    "Leadership can safely conclude that pay design, workload design, and frontline management controls are the three most defensible places to investigate next. Leadership should not claim causal turnover effects or ROI outcomes until internal KPIs are added.",
 ]
 
 ranking_rationales = {}
@@ -983,7 +983,7 @@ boardroom_opening = [
 leadership_safe_claims = [
     f"It is safe to say that the external negative signal is concentrated in {top_driver_theme_list}, rather than spread evenly across all five themes.",
     f"It is safe to say that {volume_leader['Theme']}, {risk_leader['Theme']}, and {top_business_impact['Theme']} are the strongest current candidates for executive review because volume, risk rank, and impact estimate all point toward them.",
-    "It is safe to say that ARIA supports targeted investigation and action prioritization. It is not safe to say that ARIA has proven attrition, injury, or ROI outcomes.",
+    "It is safe to say that ARIA supports targeted investigation and action prioritization. It is not safe to say that ARIA has proven turnover, injury, or ROI outcomes.",
     "It is safe to ask leadership for the next validating KPI immediately, because the current evidence is strong enough to justify follow-up but not strong enough to close the case on causality.",
 ]
 
@@ -1054,7 +1054,7 @@ decision_agenda = pd.DataFrame(
 kpi_request_table = pd.DataFrame(
     [
         {
-            "KPI to request": "Voluntary attrition rate",
+            "KPI to request": "Voluntary exit rate",
             "Required cut": "By site, shift, tenure band, and manager",
             "Why it matters": "Tests whether the external review signal aligns with real retention loss.",
         },

@@ -1,40 +1,40 @@
 {
-  "generated_at_utc": "2026-04-13T20:57:24+00:00",
-  "generator": "build_aria_governance_artifacts.py",
-  "raw_dataset_name": "final_aria_dataset.csv",
-  "raw_dataset_path": "01_Data/final_aria_dataset.csv",
-  "raw_dataset_sha256": "64141aad4284652db12c0afcf6931c5edaa652e0a3db182da05551f188f7d748",
-  "executive_dataset_name": "aria_executive_review_dataset.csv",
-  "executive_dataset_path": "01_Data/aria_executive_review_dataset.csv",
-  "executive_dataset_sha256": "7677404e65c3f1ba9e88fa04b6dd26be0327547fe90630cde130bfd652e6f44a",
-  "override_table_name": "aria_executive_overrides.csv",
-  "override_table_path": "01_Data/aria_executive_overrides.csv",
-  "override_table_sha256": "00688c937ad3fbb3b30141ac8dcab293cda8aed2407158cd69f708e26f5dc169",
-  "total_reviews": 150,
-  "platform_counts": {
-    "Glassdoor": 140,
-    "YouTube": 10
-  },
-  "pipeline_theme_counts": {
-    "T3_Pay_Benefits": 69,
-    "T1_Physical_Degradation": 30,
-    "T4_Supervisor_Inconsistency": 26,
-    "T2_Nepotism_Advancement": 12,
-    "LANG_NOT_SUPPORTED": 5,
-    "Untagged": 4,
-    "T5_Bathroom_Dignity": 4
-  },
-  "executive_theme_counts": {
-    "Compensation & Benefits": 71,
-    "Workload & Burnout": 32,
-    "Management & Communication": 27,
-    "Career Growth": 13,
-    "Work Culture": 7
-  },
-  "assignment_method_counts": {
-    "Direct pipeline map": 141,
-    "Executive override": 9
-  },
-  "none_confidence_reviews": 9,
-  "override_count": 9
+    "generated_at_utc":  "2026-04-22T12:12:33Z",
+    "generator":  "build_aria_governance_artifacts.py",
+    "raw_dataset_name":  "final_aria_dataset.csv",
+    "raw_dataset_path":  "01_Data/final_aria_dataset.csv",
+    "raw_dataset_sha256":  "3bf96ced172703ed5ddd4afb80bd98e2a8c49154c6bcecfb29b6bd28c774d2bb",
+    "executive_dataset_name":  "aria_executive_review_dataset.csv",
+    "executive_dataset_path":  "01_Data/aria_executive_review_dataset.csv",
+    "executive_dataset_sha256":  "dc961ccae8249e5a8650a76101dc742a89c3b749ebf1ccac2046113268f27490",
+    "override_table_name":  "aria_executive_overrides.csv",
+    "override_table_path":  "01_Data/aria_executive_overrides.csv",
+    "override_table_sha256":  "28a78aa18ed4eb73792594a63797e97725fb72b62af5cfef80ddfe002ee7b043",
+    "total_reviews":  150,
+    "platform_counts":  {
+                            "Glassdoor":  140,
+                            "YouTube":  10
+                        },
+    "pipeline_theme_counts":  {
+                                  "T3_Pay_Benefits":  69,
+                                  "T1_Physical_Degradation":  30,
+                                  "T4_Supervisor_Inconsistency":  26,
+                                  "T2_Nepotism_Advancement":  12,
+                                  "LANG_NOT_SUPPORTED":  5,
+                                  "Untagged":  4,
+                                  "T5_Bathroom_Dignity":  4
+                              },
+    "executive_theme_counts":  {
+                                   "Compensation \u0026 Benefits":  71,
+                                   "Workload \u0026 Burnout":  32,
+                                   "Management \u0026 Communication":  27,
+                                   "Career Growth":  13,
+                                   "Work Culture":  7
+                               },
+    "assignment_method_counts":  {
+                                     "Direct pipeline map":  141,
+                                     "Executive override":  9
+                                 },
+    "none_confidence_reviews":  9,
+    "override_count":  9
 }
